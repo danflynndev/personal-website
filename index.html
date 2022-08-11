@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> -->
 
     <title>Dan Flynn | Web Developer</title>
-    <base href="https://www.danflynn.dev">
+    <!-- <base href="https://www.danflynn.dev"> -->
 
     <!-- Theme Color for Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#4285f4">
@@ -20,11 +20,57 @@
     <meta name="geo.position" content="41.8240N;71.4128W">
     <meta name="geo.region" content="US-RI">
     <meta name="geo.placename" content="Providence">
-
-    <link href="./stylesheets/main.css" rel="stylesheet" type="text/css">
+    <link href="./bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./stylesheets/custom.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1>DanFlynnDev</h1>
-    <p>now it says something different</p>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand" id="logo">DF.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarToggle">
+                <ul class="navbar-nav me-3 mb-2 mb-lg-0">
+                    <li class="nav-item mx-4">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a href="#" class="nav-link">Resume</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+    </header>
+    <main>
+        <section class="align-items-center container-fluid landing px-lg-5 px-sm-1">
+            <div class="align-items-center pt-5 row row-cols-1 row-cols-lg-2 row-cols-md-1 row-cols-sm-1  ">
+                <div class="col">
+                    <h1 class="display-1">Dan Flynn</h1>
+                    <h2 class="display-5">Web Developer</h2>
+                    <h3 class="display-6">Based in Providence, RI</h3>
+                </div>
+            </div>
+            <div class="align-items-center justify-content-end row row-cols-1 row-cols-lg-2 ">
+
+                <div class="col">
+                    <p class="py-md-5 py-sm-5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta consectetur odio ut consectetur. Pellentesque vel felis vestibulum, mollis tellus eget, pretium augue. Sed vehicula laoreet lorem, non interdum eros pulvinar vitae. Aliquam rutrum, mauris id malesuada pretium, sem justo tristique nibh, in dapibus erat purus a urna. Sed vel dictum tellus, at lobortis massa. Phasellus scelerisque ut lorem vitae varius. Maecenas auctor hendrerit augue, et cursus diam accumsan volutpat. Sed tincidunt ligula non iaculis semper. </p>
+                </div>
+            </div>
+        </section>
+        <section class="bg-dark container-fluid px-4" id="about">
+            <img class="img-thumbnail portrait" src="./images/portrait.jpg" alt="Web Developer Dan Flynn in front of stone wall greyscale portrait">
+        </section>
+
+    </main>
+    <footer></footer>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 </body>
 </html>

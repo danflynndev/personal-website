@@ -1,0 +1,16 @@
+header {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+}
+
+header .logo {
+    justify-self: flex-start;
+}
+
+nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+
+}

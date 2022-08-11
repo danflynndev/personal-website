@@ -1,0 +1,17 @@
+.bg-light {
+    background-color: rgb(227, 27, 157) !important;
+}
+#logo {
+    font-size: 2rem;
+}
+.bg-light {
+    background-color: var(--bs-purple) !important;
+}
+
+.landing {
+    height: 95vh;
+}
+
+.portrait {
+    width: 300px;
+}

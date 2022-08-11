@@ -1,0 +1,22 @@
+{
+  "name": "danflynn.dev",
+  "version": "1.0.0",
+  "description": "my personal website",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danflynndev/personal-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danflynndev/personal-website/issues"
+  },
+  "homepage": "https://www.danflynn.dev",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}
