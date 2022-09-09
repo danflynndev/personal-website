@@ -20,12 +20,16 @@
     <meta name="geo.position" content="41.8240N;71.4128W">
     <meta name="geo.region" content="US-RI">
     <meta name="geo.placename" content="Providence">
+
+    <!-- stylesheets -->
     <link href="./bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="./stylesheets/custom.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="./stylesheets/custom1.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <header>
-
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a href="#" class="logo navbar-brand">DF.</a>
@@ -47,20 +51,40 @@
                 </ul>
             </div>
         </nav>
-    
     </header>
     <main>
-        <section class="landing">
-            <h1>Daniel Flynn</h1>
-            <h2>Web Developer</h2>
-            <h3>Based in Providence, RI</h3>
+        <section class="container-fluid landing">
+            <div class="hero">
+                <h1 id="type" class="carat monotyped">Daniel Flynn</h1>
+                <h2>Full-Stack Web Developer</h2>
+                <h3>Based in Providence, RI</h3>
+                <div class="icons-row">
+                    <img alt="Linkedin Icon" src="./images/linkedin.png" />
+                    <img alt="Github Icon" src="./images/github.png" />
+                </div>
+                <p>I am a recent graduate in search of a new role. Proficient in JavaScript, HTML/CSS, Python, and SQL currently working on a MERN stack app.</p>
+            </div>
         </section>
-        <section class="" id="about">
-            <img class="portrait" src="./images/portrait.jpg" alt="Web Developer Dan Flynn in front of stone wall greyscale portrait">
+        <section class="container-fluid about" id="about">
+                <h2 class="carat carat-light monotyped">About</h2>
+                <div class="">
+                    <img class="portrait" src="./images/portrait.jpg" alt="Web Developer Dan Flynn in front of stone wall greyscale portrait">
+                    <div class="about-text-wrapper">
+                        <p class="">Waistcoat tousled la croix roof party eu yr. Ea locavore adaptogen freegan food truck selfies leggings lo-fi cold-pressed non four dollar toast pabst adipisicing elit hell of. Disrupt deserunt non, yuccie quinoa ullamco gentrify waistcoat fit scenester dolore. Echo park ut mlkshk hexagon pug, next level hoodie pour-over tumblr deserunt pickled jianbing paleo chicharrones iPhone.</p>
+                    </div>
+                </div>
+                <div class="">
+                    <h2>Skills & Proficiencies</h2>
+                </div>
         </section>
-
+        <section class="" id="contact">
+            <form>
+                <!-- TODO email form -->
+            </form>
+        </section>
     </main>
     <footer></footer>
     <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>

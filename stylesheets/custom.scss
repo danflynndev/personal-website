@@ -1,0 +1,55 @@
+:root {
+    font-size: 16px;
+}
+
+body, html, main {
+    width: 100%;
+    height: 100%
+}
+
+h1 {
+    font-family: "Courier Prime";
+    font-size: 3.44rem;
+}
+
+h2, h3, p, a {
+    font-family: "Work Sans";
+}
+
+header {
+    position: fixed;
+    width: 100%
+}
+
+#logo {
+    font-size: 2rem;
+}
+
+.landing {
+    width: 100%;
+    height: 100%;
+
+    padding-top: 5rem; /* < ---- whatever size the navbar is */
+}
+
+.hero {
+    height: 100%;
+    width: 80%;
+    position: relative;
+    top: -5rem;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    
+}
+
+.portrait {
+    width: 300px;
+}
+
